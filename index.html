@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An independent museum homepage design study inspired by a reference image.">
+  <title>Museum Homepage — Design Study</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="top-row">
+        <a class="logo" href="#top" aria-label="MoMA design study, home">MoMA</a>
+        <div class="header-actions">
+          <a class="membership" href="https://www.moma.org/support/membership/" target="_blank" rel="noopener noreferrer">Membership <span aria-hidden="true">⌄</span></a>
+          <a class="action donate" href="https://www.moma.org/support/donate/" target="_blank" rel="noopener noreferrer">Donate</a>
+          <a class="action tickets" href="https://www.moma.org/tickets/" target="_blank" rel="noopener noreferrer">Tickets</a>
+        </div>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+      </div>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#visit">Visit</a><a href="#exhibitions">Exhibitions and events</a><a href="#art">Art and artists</a><a href="#store">Store</a>
+        <button id="search-toggle" class="search-toggle" aria-label="Open search" aria-expanded="false" aria-controls="site-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg></button>
+      </nav>
+      <form id="site-search" class="search-form" action="https://www.moma.org/search/" method="get" hidden><label for="search-term">Search MoMA</label><input id="search-term" type="search" name="query" placeholder="Search art, artists, and more"><button type="submit">Search</button></form>
+    </div>
+  </header>
+  <main id="main">
+    <div class="hero" role="img" aria-label="View into a contemporary art museum gallery with hanging sculptures and a colorful artwork"></div>
+    <div class="content-wrap">
+      <section class="welcome" id="visit" aria-labelledby="welcome-title">
+        <div><h1 id="welcome-title">Welcome</h1><p class="welcome-lead">Explore art and ideas at MoMA.</p></div>
+        <div class="visit-info"><p>Plan a day surrounded by art and new ideas.</p><a class="black-button" href="https://www.moma.org/visit/" target="_blank" rel="noopener noreferrer">Plan your visit</a></div>
+      </section>
+      <section class="exhibitions" id="exhibitions" aria-labelledby="exhibitions-title">
+        <div class="section-heading"><h2 id="exhibitions-title">Exhibitions</h2><div class="carousel-controls"><button id="previous" aria-label="Previous exhibition">←</button><button id="next" aria-label="Next exhibition">→</button></div></div>
+        <div class="feature-card" id="feature-card"><div class="feature-art" aria-hidden="true"><span></span><span></span><span></span></div><div class="feature-copy"><p class="eyebrow">Discover more</p><h3>Art is for everyone</h3><p>Explore exhibitions, collections, and ideas that spark curiosity.</p><a href="https://www.moma.org/calendar/exhibitions" target="_blank" rel="noopener noreferrer">Explore exhibitions ↗</a></div></div>
+      </section>
+      <section class="quick-links" aria-label="More to explore"><a id="art" href="https://www.moma.org/collection/" target="_blank" rel="noopener noreferrer"><span>Art and artists</span><span>↗</span></a><a id="store" href="https://store.moma.org/" target="_blank" rel="noopener noreferrer"><span>Store</span><span>↗</span></a></section>
+    </div>
+  </main>
+  <footer><div class="content-wrap"><strong>MoMA</strong><p>Independent design study based on a supplied screenshot. This is not an official MoMA website. External links lead to the official site.</p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
