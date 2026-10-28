@@ -1,0 +1,445 @@
+{
+  "types": [
+    {
+      "id": "chiikawa",
+      "name": "치이카와",
+      "emoji": "🌱",
+      "color": "#f6b7cb",
+      "tagline": "조심스럽지만 끝내 해내는 사람",
+      "description": "처음에는 망설여도 소중한 것을 위해 한 걸음 내딛어요.",
+      "sampleCount": 18
+    },
+    {
+      "id": "hachiware",
+      "name": "하치와레",
+      "emoji": "🎵",
+      "color": "#9bd2ef",
+      "tagline": "다정한 낙관주의자",
+      "description": "좋은 점을 먼저 발견하고 친구와 기쁨을 나누어요.",
+      "sampleCount": 24
+    },
+    {
+      "id": "usagi",
+      "name": "우사기",
+      "emoji": "⚡",
+      "color": "#f9d783",
+      "tagline": "자유로운 에너지",
+      "description": "생각보다 행동이 빠르고 낯선 순간도 놀이처럼 즐겨요.",
+      "sampleCount": 16
+    },
+    {
+      "id": "momonga",
+      "name": "모몽가",
+      "emoji": "✨",
+      "color": "#c9b6ed",
+      "tagline": "사랑받는 표현가",
+      "description": "원하는 것을 솔직하게 표현하고 분위기를 바꿔요.",
+      "sampleCount": 13
+    },
+    {
+      "id": "kurimanju",
+      "name": "쿠리만쥬",
+      "emoji": "🍵",
+      "color": "#d5aa85",
+      "tagline": "작은 즐거움의 감식가",
+      "description": "바쁜 하루에도 맛과 쉼의 시간을 챙길 줄 알아요.",
+      "sampleCount": 11
+    },
+    {
+      "id": "rakko",
+      "name": "랏코",
+      "emoji": "🛡️",
+      "color": "#a5d8cc",
+      "tagline": "믿음직한 해결사",
+      "description": "어려운 순간에 침착하게 앞장서며 주변을 살펴요.",
+      "sampleCount": 15
+    },
+    {
+      "id": "shisa",
+      "name": "시사",
+      "emoji": "☀️",
+      "color": "#f2bd91",
+      "tagline": "꾸준한 배움의 달인",
+      "description": "배우고 연습하는 과정을 즐기며 자신만의 속도로 자라요.",
+      "sampleCount": 12
+    },
+    {
+      "id": "kani",
+      "name": "카니",
+      "emoji": "📚",
+      "color": "#e6b7a0",
+      "tagline": "섬세한 이야기 수집가",
+      "description": "작은 디테일을 기억하고 깊은 대화를 좋아해요.",
+      "sampleCount": 14
+    },
+    {
+      "id": "pajama",
+      "name": "파자마파티스",
+      "emoji": "🎉",
+      "color": "#e9c9e8",
+      "tagline": "함께할 때 빛나는 팀플레이어",
+      "description": "혼자보다 함께 만드는 순간에 힘을 얻어요.",
+      "sampleCount": 20
+    },
+    {
+      "id": "armor",
+      "name": "포쉐트 갑옷씨",
+      "emoji": "🧵",
+      "color": "#a9bcd4",
+      "tagline": "다정한 손길의 창작자",
+      "description": "필요한 것을 직접 만들고 조용히 누군가를 도와요.",
+      "sampleCount": 9
+    },
+    {
+      "id": "anoko",
+      "name": "아노코",
+      "emoji": "🌙",
+      "color": "#b5b4cb",
+      "tagline": "자기만의 세계가 뚜렷한 사람",
+      "description": "익숙한 틀보다 자신만의 감각과 거리를 소중히 여겨요.",
+      "sampleCount": 8
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "새로운 모임에 가면 나는?",
+      "options": [
+        {
+          "text": "조용히 분위기를 살핀다",
+          "scores": {
+            "chiikawa": 2,
+            "anoko": 1
+          }
+        },
+        {
+          "text": "먼저 말을 걸며 어색함을 푼다",
+          "scores": {
+            "hachiware": 2,
+            "pajama": 1
+          }
+        },
+        {
+          "text": "재미있는 일을 찾아 돌아다닌다",
+          "scores": {
+            "usagi": 2,
+            "momonga": 1
+          }
+        },
+        {
+          "text": "편한 자리를 찾아 여유를 즐긴다",
+          "scores": {
+            "kurimanju": 2,
+            "kani": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "친구가 고민을 털어놓으면?",
+      "options": [
+        {
+          "text": "곁에 앉아 끝까지 들어준다",
+          "scores": {
+            "kani": 2,
+            "chiikawa": 1
+          }
+        },
+        {
+          "text": "힘낼 수 있는 말을 건넨다",
+          "scores": {
+            "hachiware": 2,
+            "shisa": 1
+          }
+        },
+        {
+          "text": "바로 도울 방법을 찾는다",
+          "scores": {
+            "rakko": 2,
+            "armor": 1
+          }
+        },
+        {
+          "text": "기분 전환할 활동을 제안한다",
+          "scores": {
+            "pajama": 2,
+            "usagi": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "주말에 가장 끌리는 계획은?",
+      "options": [
+        {
+          "text": "새로운 장소를 즉흥적으로 탐험",
+          "scores": {
+            "usagi": 2,
+            "anoko": 1
+          }
+        },
+        {
+          "text": "맛있는 것을 먹으며 느긋하게 쉬기",
+          "scores": {
+            "kurimanju": 2,
+            "momonga": 1
+          }
+        },
+        {
+          "text": "친구들과 작은 파티 열기",
+          "scores": {
+            "pajama": 2,
+            "hachiware": 1
+          }
+        },
+        {
+          "text": "배우고 싶던 것을 연습하기",
+          "scores": {
+            "shisa": 2,
+            "armor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "갑자기 어려운 일이 생겼다. 첫 반응은?",
+      "options": [
+        {
+          "text": "걱정되지만 차근차근 시작한다",
+          "scores": {
+            "chiikawa": 2,
+            "shisa": 1
+          }
+        },
+        {
+          "text": "핵심을 파악하고 바로 움직인다",
+          "scores": {
+            "rakko": 2,
+            "usagi": 1
+          }
+        },
+        {
+          "text": "다른 사람과 아이디어를 모은다",
+          "scores": {
+            "pajama": 2,
+            "hachiware": 1
+          }
+        },
+        {
+          "text": "혼자 생각을 정리할 시간을 갖는다",
+          "scores": {
+            "anoko": 2,
+            "kani": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "선물을 고를 때 나는?",
+      "options": [
+        {
+          "text": "상대가 한 말을 떠올려 섬세하게 고른다",
+          "scores": {
+            "kani": 2,
+            "armor": 1
+          }
+        },
+        {
+          "text": "직접 만들거나 꾸며서 준다",
+          "scores": {
+            "armor": 4,
+            "shisa": 1
+          }
+        },
+        {
+          "text": "귀엽고 눈에 띄는 것을 고른다",
+          "scores": {
+            "momonga": 2,
+            "usagi": 1
+          }
+        },
+        {
+          "text": "함께 즐길 경험을 선물한다",
+          "scores": {
+            "hachiware": 2,
+            "kurimanju": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "마음에 드는 일을 발견하면?",
+      "options": [
+        {
+          "text": "꾸준히 연습해서 익숙해진다",
+          "scores": {
+            "shisa": 2,
+            "chiikawa": 1
+          }
+        },
+        {
+          "text": "친구들에게 소개하고 함께한다",
+          "scores": {
+            "hachiware": 2,
+            "pajama": 1
+          }
+        },
+        {
+          "text": "내 방식으로 과감히 변형한다",
+          "scores": {
+            "anoko": 2,
+            "usagi": 1
+          }
+        },
+        {
+          "text": "최고의 순간을 음미한다",
+          "scores": {
+            "kurimanju": 2,
+            "momonga": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "팀에서 자연스럽게 맡는 역할은?",
+      "options": [
+        {
+          "text": "앞장서서 난관을 해결하기",
+          "scores": {
+            "rakko": 2,
+            "shisa": 1
+          }
+        },
+        {
+          "text": "모두가 즐겁게 어울리도록 하기",
+          "scores": {
+            "pajama": 2,
+            "momonga": 1
+          }
+        },
+        {
+          "text": "필요한 물건과 준비를 챙기기",
+          "scores": {
+            "armor": 4,
+            "chiikawa": 1
+          }
+        },
+        {
+          "text": "새로운 관점을 제안하기",
+          "scores": {
+            "anoko": 2,
+            "kani": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "나를 가장 잘 표현하는 한마디는?",
+      "options": [
+        {
+          "text": "작은 용기",
+          "scores": {
+            "chiikawa": 2,
+            "rakko": 1
+          }
+        },
+        {
+          "text": "반짝이는 존재감",
+          "scores": {
+            "momonga": 2,
+            "hachiware": 1
+          }
+        },
+        {
+          "text": "느긋한 취향",
+          "scores": {
+            "kurimanju": 2,
+            "kani": 1
+          }
+        },
+        {
+          "text": "예측 불가한 활력",
+          "scores": {
+            "usagi": 2,
+            "anoko": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "좋은 하루를 마무리하는 방법은?",
+      "options": [
+        {
+          "text": "함께 찍은 사진을 다시 본다",
+          "scores": {
+            "pajama": 2,
+            "hachiware": 1
+          }
+        },
+        {
+          "text": "오늘 배운 것을 기록한다",
+          "scores": {
+            "shisa": 2,
+            "kani": 1
+          }
+        },
+        {
+          "text": "나만의 취미에 몰입한다",
+          "scores": {
+            "anoko": 2,
+            "armor": 1
+          }
+        },
+        {
+          "text": "맛있는 간식과 함께 쉰다",
+          "scores": {
+            "kurimanju": 2,
+            "momonga": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "누군가 나에게 고맙다고 할 때?",
+      "options": [
+        {
+          "text": "쑥스럽지만 뿌듯하다",
+          "scores": {
+            "chiikawa": 2,
+            "armor": 1
+          }
+        },
+        {
+          "text": "다음에도 도울 준비가 된다",
+          "scores": {
+            "rakko": 2,
+            "shisa": 1
+          }
+        },
+        {
+          "text": "나도 고맙다고 말한다",
+          "scores": {
+            "hachiware": 2,
+            "kani": 1
+          }
+        },
+        {
+          "text": "신나서 함께 축하한다",
+          "scores": {
+            "usagi": 2,
+            "pajama": 1
+          }
+        }
+      ]
+    }
+  ]
+}
